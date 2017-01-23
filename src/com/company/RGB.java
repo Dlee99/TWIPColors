@@ -15,6 +15,7 @@ public class RGB {
         String R = "", G = "", B = "";
         R = R + (r % 16);
         r = r - r % 16;
+        G = R + (g % 16);
 
     }
 }

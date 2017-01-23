@@ -12,11 +12,12 @@ public class Main {
         String format = sc.nextLine().toLowerCase();
         if(format.equals("rgb")){
             RHC[0] = RGB.RGB(color);
-            for(int i = 0; i < RHC.length; i++){
-                System.out.println(RHC[i]);
-            }
         }
-
+        System.out.println(¨RGB:¨);
+        System.out.println(RHC[0][0] + ¨,¨ + RHC[0][1] + ¨,¨ + RHC[0][2]);
+        System.out.println(¨Hexadecimal:¨);
+        System.out.println(RHC[1][0] + ¨,¨ + RHC[1][1] + ¨,¨ + RHC[1][2]);
+        System.out.println(RHC[2][0]);
 
     }
 }
